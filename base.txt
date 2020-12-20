@@ -7,3 +7,11 @@
 	 dd 删除当前行
 	 ndd 删除多行，如3dd删除当前行，下一行，下下一行
 	 
+	 选中内容后：
+	 Ctrl + ins 复制
+	 Shift + ins 粘贴
+	 Alt + ins 复制并粘贴
+	 
+	 - 删除/tmp临时文件
+	 tmpwatch 30d /tmp 删除/tmp目录下30天未使用过的文件；tmpwatch 24 /tmp 删除/tmp目录下24小时未使用过的文件（需要安装tmpwatch：yum install tmpwatch.x86_64）
+	 
