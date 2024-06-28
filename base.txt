@@ -24,3 +24,23 @@
 	 vim编辑过程中，Ctrl + S 锁住当前文件，输入任何内容都不显示，但是输入的内容均已经生效。解锁后可以看到。Ctrl + q 退出，解锁。
 	 
 	 top 实时显示 process 的动态，通常可以使用此命令让命令窗口不挂掉。q退出。
+
+
+	# rzsz
+	获取并安装
+
+	```sh
+	cd /tmp 
+	wget http://www.ohse.de/uwe/releases/lrzsz-0.12.20.tar.gz 
+	tar zxvf lrzsz-0.12.20.tar.gz && cd lrzsz-0.12.20 
+	./configure && make && make install 
+	```
+
+	建立软链接
+	
+	```sh
+	cd /usr/bin 
+	ln -s /usr/local/bin/lrz rz 
+	ln -s /usr/local/bin/lsz sz 
+	```
+
